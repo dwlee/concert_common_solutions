@@ -1,0 +1,7 @@
+- resource_name: concert_service_admin/admin
+- resource_name: concert_common_test_services/chatter_service
+- resource_name: concert_common_test_services/pickup_delivery_service
+
+# - resource_name: toyweb_concert/training_contents
+#   overrides:
+#     priority: 99

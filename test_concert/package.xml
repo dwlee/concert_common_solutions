@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+  <name>test_concert</name>
+  <version>0.0.0</version>
+  <description>
+    Test concert
+  </description>
+
+  <maintainer email="dwlee@yujinrobot.com">Dong wook Lee</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>concert_master</run_depend>
+  <run_depend>concert_workflow_engine_blockly</run_depend>
+  <run_depend>concert_workflow_handler_blockly</run_depend>
+  <run_depend>concert_service_admin</run_depend>
+  <run_depend>concert_common_services</run_depend>
+  <run_depend>concert_common_test_services</run_depend>
+  
+</package>
