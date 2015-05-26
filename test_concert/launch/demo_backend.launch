@@ -1,6 +1,6 @@
 <launch>
     <arg name="concert_client_name" default="dude"/>
-    <arg name="concert_name" default="$(env CONCERT_NAME)"/> 
+    <arg name="concert_name"  default="$(env CONCERT_NAME)"/> 
 
     <include file="$(find rocon_app_manager)/launch/concert_client.launch">
         <arg name="robot_name" value="$(arg concert_client_name)"/>
