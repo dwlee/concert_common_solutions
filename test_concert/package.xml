@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <name>test_concert</name>
-  <version>0.0.0</version>
+  <version>0.1.0</version>
   <description>
     Test concert
   </description>
