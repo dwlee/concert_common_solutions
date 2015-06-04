@@ -1,0 +1,5 @@
+- resource_name: concert_common_services/pickup_delivery
+  override:
+    priority: 3
+- resource_name: concert_common_services/vm_delivery
+- resource_name: concert_common_services/welcome
