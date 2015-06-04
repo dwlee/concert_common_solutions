@@ -1,0 +1,11 @@
+- resource_name: concert_common_services/pickup_delivery
+  override:
+    description: Deliver yours pickup_delivery
+    priority: 3
+- resource_name: concert_common_services/vm_delivery
+  override:
+    description: Deliver yours vm_delivery
+    priority: 3
+- resource_name: concert_common_services/welcome
+  override:
+    priority: 3
