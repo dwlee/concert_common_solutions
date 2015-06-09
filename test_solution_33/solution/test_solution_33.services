@@ -1,0 +1,13 @@
+- resource_name: concert_common_services/pickup_delivery
+  override:
+    name: Pickup Delivery 1
+    description: Deliver yours 1
+    priority: 21
+- resource_name: concert_common_services/welcome
+- resource_name: demo_services/vm_delivery_service
+  override:
+    name: vm_delivery_service 2
+    description: Delivery drink from Vending machine 2
+    interactions: demo_services/vm_delivery_service 2
+    parameters: demo_services/vm_delivery_service 2
+    priority: 3
