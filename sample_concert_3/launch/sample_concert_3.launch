@@ -1,0 +1,14 @@
+<launch>
+    <arg name='concert_name' default='sample_concert_2'/>
+    <arg name='services' default='sample_concert_2/sample_concert_2.services'/>
+    <arg name='auto_enabled_services' default='[,while_test,test_service]'/>
+
+    <include file='$(find sample_concert_2)/launch/sample_concert_2.launch'>
+        <arg name='concert_name' value='$(arg concert_name)'/>
+        <arg name='services' value='$(arg services)'/>
+        <arg name='conductor_auto_invite' value='true'/>
+        <arg name='conductor_local_clients_only' value='true'/>
+        <arg name='auto_enable_services' value='$(arg auto_enabled_services)'/>
+        <arg name='scheduler_type' value='compatibility_tree'/>
+    </include>
+</launch>
