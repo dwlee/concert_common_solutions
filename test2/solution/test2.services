@@ -1,0 +1,11 @@
+- resource_name: concert_common_services/pickup_delivery
+  override:
+    name: Pickup Delivery2
+    icon: concert_common_services/pickup_delivery.png
+    priority: 3
+- resource_name: concert_common_services/vm_delivery
+  override:
+    name: vm delivery1
+    description: Deliver yours2
+    interactions: concert_common_services/vm_delivery1
+    priority: 4
