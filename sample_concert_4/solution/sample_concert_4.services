@@ -1,0 +1,5 @@
+- resource_name: concert_common_test_services/while_test
+  override:
+    description: overridden while test
+- resource_name: demo_services/test_service
+- resource_name: demo_services/vm_delivery_service
