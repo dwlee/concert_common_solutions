@@ -1,0 +1,3 @@
+- resource_name: concert_common_services/pickup_delivery
+- resource_name: concert_common_test_services/welcome
+- resource_name: demo_services/test_service
