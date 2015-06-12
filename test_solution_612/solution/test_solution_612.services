@@ -1,0 +1,12 @@
+- resource_name: concert_common_services/pickup_delivery
+  override:
+    name: Pickup Delivery 1
+    priority: 3
+- resource_name: concert_common_test_services/chatter_service
+  override:
+    name: chatter_service 2
+    icon: 1.png
+- resource_name: demo_services/test_service
+  override:
+    name: test_service 3
+    priority: 1233
