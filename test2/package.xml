@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package>
+  <name>test2</name>
+  <version>1.0.1</version>
+  <description>
+    test2 package
+  </description>
+  <maintainer email='shkwak@gmail.com'>shkwak</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>concert_master</run_depend>
+  <run_depend>concert_common_services</run_depend>
+</package>

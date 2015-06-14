@@ -1,0 +1,8 @@
+- resource_name: concert_common_services/pickup_delivery
+  override:
+    name: Pickup Delivery 2
+    priority: 3
+- resource_name: concert_common_test_services/chatter_service
+  override:
+    priority: 4
+- resource_name: demo_services/test_service
