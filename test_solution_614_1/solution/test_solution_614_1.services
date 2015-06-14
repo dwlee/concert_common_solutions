@@ -1,0 +1,5 @@
+- resource_name: concert_common_services/pickup_delivery
+  override:
+    name: Pickup Delivery 2
+- resource_name: concert_common_test_services/sleep_test
+- resource_name: demo_services/vm_delivery_service
