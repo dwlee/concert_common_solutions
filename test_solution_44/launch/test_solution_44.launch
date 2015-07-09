@@ -1,0 +1,14 @@
+<launch>
+    <arg name='concert_name' default='test_solution_44'/>
+    <arg name='services' default='test_solution_44/test_solution_44.services'/>
+    <arg name='auto_enabled_services' default='[pickup_delivery,pickup_delivery]'/>
+
+    <include file='$(find test_solution_44)/launch/test_solution_44.launch'>
+        <arg name='concert_name' value='$(arg concert_name)'/>
+        <arg name='services' value='$(arg services)'/>
+        <arg name='conductor_auto_invite' value='true'/>
+        <arg name='conductor_local_clients_only' value='true'/>
+        <arg name='auto_enable_services' value='$(arg auto_enabled_services)'/>
+        <arg name='scheduler_type' value='compatibility_tree'/>
+    </include>
+</launch>
