@@ -1,0 +1,14 @@
+<launch>
+    <arg name='concert_name' default='sample01'/>
+    <arg name='services' default='sample01/sample01.services'/>
+    <arg name='auto_enabled_services' default='[live_authoring,pickup_delivery,vm_delivery,welcome]'/>
+
+    <include file='$(find concert_master)/launch/concert_master.launch'>
+        <arg name='concert_name' value='$(arg concert_name)'/>
+        <arg name='services' value='$(arg services)'/>
+        <arg name='conductor_auto_invite' value='true'/>
+        <arg name='conductor_local_clients_only' value='true'/>
+        <arg name='auto_enable_services' value='$(arg auto_enabled_services)'/>
+        <arg name='scheduler_type' value='compatibility_tree'/>
+    </include>
+</launch>
