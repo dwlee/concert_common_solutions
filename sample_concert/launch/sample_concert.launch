@@ -1,0 +1,18 @@
+<launch>
+    <arg name='concert_name' default='sample_concert'/>
+    <arg name='services' default='sample_concert/sample_concert.services'/>
+    <arg name='default_auto_enable_services' default='[live_authoring,pickup_delivery,vm_delivery]'/>
+    <arg name='rosbridge_address'     default='$(env CONCERT_ROSBRIDGE_ADDRESS)'/>
+    <arg name='webserver_address'     default='$(env CONCERT_WEBSERVER_ADDRESS)'/>
+    <arg name='default_auto_enable_services' default='[live_authoring,pickup_delivery,vm_delivery]'/>
+
+    <include file='$(find concert_master)/launch/concert_master.launch'>
+        <arg name='concert_name' value='$(arg concert_name)'/>
+        <arg name='services' value='$(arg services)'/>
+        <arg name='conductor_auto_invite' value='true'/>
+        <arg name='conductor_local_clients_only' value='true'/>
+        <arg name='default_auto_enable_services' value='$(arg default_auto_enable_services)'/>
+        <arg name='rosbridge_address' value='$(arg rosbridge_address)'/>
+        <arg name='webserver_address' value='$(arg webserver_address)'/>
+    </include>
+</launch>
