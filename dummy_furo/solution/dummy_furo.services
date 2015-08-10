@@ -1,0 +1,11 @@
+- resource_name: concert_common_test_services/pickup_delivery
+  override:
+    description: pickup delivery in office 1
+    priority: 5
+- resource_name: concert_common_test_services/vm_delivery
+  override:
+    description: Delivery drink from Vending machine 1
+    priority: 4
+- resource_name: concert_common_test_services/welcome
+  override:
+    priority: 3
