@@ -1,0 +1,10 @@
+- resource_name: concert_common_test_services/pickup_delivery
+  override:
+    priority: 3
+- resource_name: concert_common_test_services/vm_delivery
+  override:
+    priority: 3
+- resource_name: concert_common_test_services/welcome
+  override:
+    description: welcome for visitor service
+    priority: 3
