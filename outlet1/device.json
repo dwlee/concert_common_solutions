@@ -1,10 +1,9 @@
 {
-  "name": "kajksjfkase",
-  "description": "Microsoft sucks",
+  "name": "outlet1",
+  "icon": "",
+  "description": "living room",
   "version": "0.0.1",
-  "keywords": ["index", "array", "indexOf"],
-  "dependencies": {},
-  "scripts": [
-    "index.js"
-  ]
+  "eventlist": ["turnon", "turnoff", ""],
+  "eventType": "both",
+  "scripts": ["index.js"]
 }
